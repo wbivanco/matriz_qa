@@ -1,0 +1,46 @@
+# Virtual Environment
+tmp
+Procfile.dev
+venv
+
+
+# Archivos de configuración
+.env
+.venv
+
+
+# Visual Studio
+/.vscode/
+.vscode
+/tmp/
+
+
+# Git
+.git
+
+# Jetbrains
+.idea/*
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+coverage.xml
+junit.xml
+
+
+# ?
+.cache
+src
+.DS_Store
+._.DS_Store
+
+*.log
+*.py[codt]
+
+secret.key
+
+.bash_history
+
+__pycache__/
+.pytest_cache/

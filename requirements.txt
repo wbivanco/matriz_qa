@@ -1,0 +1,5 @@
+langchain
+unstructured
+python-docx
+openai
+python-dotenv
