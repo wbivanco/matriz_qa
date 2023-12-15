@@ -1,0 +1,192 @@
+MÓDULO ;FUNCIONALIDAD;PROCESO;SEGMENTO;CASO DE PRUEBA;RESULTADO ESPERADO
+Mantenedor Negocio ;Migraciones;switch flujo de migraciones-Desactivado;NA;Validar que se pueda desactivar el switch de migraciones  desde mantenedor;Al desactivar el switch de migraciones en mantenedor la aplicación NO deberá mostrar la opción 'Pásate a un plan' en el menú hamburguesa
+Mantenedor Negocio ;Migraciones;switch flujo de migraciones-Activado;NA;Validar que se pueda Activar el switch de migraciones  desde mantenedor;Al Activar el switch de migraciones en mantenedor la aplicación deberá mostrar la opción 'Pásate a un plan' en el menú hamburguesa
+Mantenedor Negocio ;Migraciones;Configuración de parrillas migraciones ;NA;Validar que se haya realizado la configuarcion de parrillas migraciones desde Mantenedor NBA Flujo nativo ;"Se deberá mostrar la pantalla muestra el plan 1 con los campos -Código del plan-, -Diferenciador de plan-, -Nombre de plan-, -Costo del plan-, -Beneficios del plan-, -Texto de botón-, Switch-¿Caribu?-, Switch -¿Desea mostrar en el app?-, -Formulario guardado-,-Orden/Prioridad-, -Descuento-, -Monto fianza anual-, -Información de descuento-.
+También en la misma pantalla deslizando un poco hacia abajo podemos encontrar un combo lista -Beneficios incluidos-, la implementación de un contenedor editor HTML para el diseño de los planes y la vista previa del diseño del plan.
+En la parte inferior de la pantalla deslizando completamente hacia abajo podemos encontrar un contenedor de texto -Términos y condiciones de Uso- y otro contenedor -Contrato- con el código en HTML que debe usarse en todos los planes para el correcto funcionamiento."
+Mantenedor Negocio ;Migraciones;"
+Configuracion de parrillas Swich mostrar en la app
+Plan 2 Activado";NA;Validar la correcta configuración del swich caribu parrillas para su posterior visualizacion en la app;"La pantalla deberá mostrar el plan 2 con los campos -Código del plan-, -Diferenciador de plan-, -Nombre de plan-, -Costo del plan-, -Beneficios del plan-, -Texto de botón-, Switch-¿Caribu?-, Switch -¿Desea mostrar en el app?-, -Formulario guardado-,-Orden/Prioridad-, -Descuento-, -Monto fianza anual-, -Información de descuento-.
+Se deja Switch- ¿Caribu? - activado ya que este plan solo se visualizará en los Dns para flujo migraciones caribu
+Se da clic en el botón Continuar. 
+El sistema nos muestra en pantalla que la actualización se realizó de manera correcta"
+Mantenedor Negocio ;Migraciones;"
+Configuracion de parrillas Swich mostrar en la app
+Plan 2 Desactivado";NA;Validar la correcta configuración del swich caribu parrillas cuando se encuentre desactivado ;Al desactivar el switch caribu La aplicación NO debera de mostrar el plan 2 de migraciones caribu en la pantalla planes movistar 
+Mantenedor Negocio ;Migraciones;Mantenedor Parrillas Switch Caribu plan 2 y 3 Encendido;NA;Validar la correcta configuracion switch caribu en las parrillas los planes 2 y 3  ;"Se deberá mostrar la pantalla muestra el plan 2 y 3 con los campos -Código del plan-, -Diferenciador de plan-, -Nombre de plan-, -Costo del plan-, -Beneficios del plan-, -Texto de botón-, Switch-¿Caribu?-, Switch -¿Desea mostrar en el app?-, -Formulario guardado-,-Orden/Prioridad-, -Descuento-, -Monto fianza anual-, -Información de descuento-.
+También en la misma pantalla deslizando un poco hacia abajo podemos encontrar un combo lista -Beneficios incluidos-, la implementación de un contenedor editor HTML para el diseño de los planes y la vista previa del diseño del plan.
+En la parte inferior de la pantalla deslizando completamente hacia abajo podemos encontrar un contenedor de texto -Términos y condiciones de Uso- y otro contenedor -Contrato- con el código en HTML que debe usarse en todos los planes para el correcto funcionamiento."
+Mantenedor Negocio ;Migraciones;Mantenedor Parrillas Switch Caribu plan 1, 4y  5 Encendido  y 2, 3 Apagado ;NA;Validar la correcta configuracion switch caribu encendido en las parrillas los planes 1, 4 y 5   y el apagado en los planes 2 y 3 ;"Se deberá mostrar la pantalla muestra el plan 1, 4  y 5 con los campos -Código del plan-, -Diferenciador de plan-, -Nombre de plan-, -Costo del plan-, -Beneficios del plan-, -Texto de botón-, Switch-¿Caribu?-, Switch -¿Desea mostrar en el app?-, -Formulario guardado-,-Orden/Prioridad-, -Descuento-, -Monto fianza anual-, -Información de descuento-.
+También en la misma pantalla deslizando un poco hacia abajo podemos encontrar un combo lista -Beneficios incluidos-, la implementación de un contenedor editor HTML para el diseño de los planes y la vista previa del diseño del plan.
+En la parte inferior de la pantalla deslizando completamente hacia abajo podemos encontrar un contenedor de texto -Términos y condiciones de Uso- y otro contenedor -Contrato- con el código en HTML que debe usarse en todos los planes para el correcto funcionamiento. 
+Al apagar el swich en los planes 2 y 3 no deberán mostrar informacion en la app "
+Migraciones Caribu;(Migracion Caribu) inicio de sesión DN  prepago ;Pantalla de consumo ;Prepago;Validar que en la pantalla de consumo se muestre un slider con la opcion conocer planes ;Al ingresar a la pantalla de consumo se deberá mostrar un slider con el boton conocer planes 
+Migraciones Caribu;Pantalla de consumo ;Slider boton conocer planes ;Prepago;Validar que al darle clic en el botón conocer plane mande a la pantalla de los planes directamente  ;"Al darle clic al boton ""conocer mas planes"" mandara a los planes directamente. Pantalla azul"
+Migraciones Caribu;(Migracion Caribu) inicio de sesión DN  prepago ;Menú Hamburguesa Swich Activado desde mantenedor;Prepago;"Validar que el segmento prepago muestre en el menu hamburguesa la opción ""Pasate a un plan""";Al ser un dn apto para migración caribu mostrará la opcion pasate a un plan 
+Migraciones Caribu;Inicio de sesión DN  prepago  ;Switch Migracione Desactivado desde mantenedor ;Prepago;"Validar que al estar desactivado el swich de migraciones en mantenedor al ingresar al menu hamburguesa de la app NO muestre la opción ""Pasate a un plan""";No se debera mostrar la opcion de migraciones Pasate a un plan cuando el swich de migraciones se encuentre desactivado desde mantenedor
+Migraciones Caribu;Inicio de sesión DN  prepago  ;Pasate a un plan ;Prepago;"Validar que al darle clic en la opcion pasate un plan nos mande al la pantalla de ""Pasate a un plan""";"Se deberá mostrar una pantalla azul ""Pasate a un plan"" al darle clic a la opcion pasate a un plan "
+Migraciones Caribu;Pantalla Pasate a un plan ;Botón pasarme a un plan;Prepago;"Validar que se muestre el boton verde ""Pasarme a un plan""";"Se debera mostrar un boton verde con el texto ""Pasarme a un plan"""
+Migraciones Caribu;Pantalla Pasate a un plan ;Botón pasarme a un plan;Prepago;Validar que al darle clic en el botón pasarme a un plan mande a la parrilla de planes;"Al darle clic al botón"" pasarme a un plan "" deberá mandar a la parrilla de los planes"
+Migraciones Caribu;Planes Movistar;Validación de parrilla de planes;Prepago;Validar se muestren los planes configurados para Pasate a un plan;Se mostraran los planes agregados en el mantenedor con su información y costos
+Migraciones Caribu;Botón Acepta;Validación de parrilla de planes;Prepago;Validar que la funcionalidad del botón Lo quiero sea la correcta y nos permita avanzar;se deberá poder continuar al momento de dar clic en Lo quiero 
+Migraciones Caribu;Confirma tu identidad ;Confirmacion de identidad ;Prepago;Validar que se muestre la pantalla solciitando datos personales para la confimació de identidad;"Se debera mostrar una pantalla de confirmación de indentidad solicitando los siguentes datos: 
+1.- Correo electrónico
+2.- Telefono de contacto 
+3.- RFC con Homoclave "
+Migraciones Caribu;Confirma tu identidad ;Confirmacion de identidad datos incorrectos;Prepago;Validar que se muestre warning en cada campo de texto;Se debera mostrar un warning en cada campo de texto de datos personal es al colocar información incorrecta
+Migraciones Caribu;Confirma tu identidad ;Botón Continuar ;Prepago;Validar que al seleccionar el botón continuar permita avanzar a la pantalla de  check out ;Al darle clic al boton conitnuar deberá mandar a la pantalla de check out (dirección de facturación)
+Migraciones Caribu;Confirma tu identidad ;Boton Editar datos de contacto ;Prepago;Validar que al seleccionar el botón Editar contactos  permita la edición de los datos reviamente ingresados ;Al darle clic en el btón Editar contactos deberá permitir la edición de los datos previamente ingresados para la confirmación de identidad
+Migraciones Caribu;Confirma tu identidad ;Boton Guardar y continuar / botón cancelar   ;Prepago;Validar que al presionar el botón de guardar y continuar permita guardar los datos y avanzar a la siguiente pantalla y al darle clic en cancelar no se guarden los datos;Al presionar el botón de guardar y continuar permita guardar los datos y avanzar a la siguiente pantalla y al darle clic en cancelar no se guarden los datos
+Migraciones Caribu;Confirma tu identidad ;Datos incorrectos;Prepago;Validar que al ingresar los datos incorrectos se bloquee la pantalla y no permita continuar con el fliujo ;"Al ingresar los datos incorrectos en alfguno de los siguientes puntos:
+1.- Correo electrónico erroneo
+2.- Telefono de contacto erroneo
+3.- RFC con Homoclave  erroneo
+se bloquee el botón y no permita continuar con el flujo "
+Migraciones Caribu;Checkout;Dirección de facturación;Prepago;Debe permitir colocar la información de dirección de facturación;"Pantalla para ingresar datos:
+-Calle
+-Número exterior
+-Número interior
+-Código Postal
+-Colonia
+-Delegación o Municipio
+-Botón siguiente (se activa hasta tener la información completa)"
+Migraciones Caribu;Checkout;Contrato;Prepago;Se valida pantalla de contrato con redireccionamiento a los links que contiene y check box;"Pantalla con los siguientes elementos:
+-Título
+-Texto con links
+-Link Contrato
+-Link Claúsulas
+-Link Carta de derechos
+-Link Políticas
+-Chel box Manifiesto mi consentimiento
+-Check box Acepto términos y condiciones
+Botón siguiente"
+Migraciones Caribu;Checkout;Contrato;Prepago;Validar información de contrato ;Se verifica la información del contrato
+Migraciones Caribu;Banner de error;Contrato;Prepago;Validar que al tener algun error en el flujo se muestre banner;"Se muestra banner rojo inferior con texto:
+""Ups, por el momento no se puede realizar esta opión.Inténtalo más tarde""
+"
+Migraciones Caribu;Flujo exitoso;Pantalla de éxito;Prepago;Verificar información en la pantalla de éxito;"Se muestra información del plan:
+-Orden
+-Plan-Total del plan
+-Fianza
+-Renta mensual
+Datos personales:
+-Nombre
+-Correo
+-Teléfono"
+Migraciones Caribu;Flujo exitoso;Tu cambio esta en proceso;Prepago;Validar pantalla cambio en proceso;"Se muestra pantalla con elementos:
+-Tu cambio está en proceso
+-Imagen
+"
+Migraciones Caribu;Flujo exitoso;Procesando cambio;Prepago;Debe mostrar spinner de carga y enviar a consumo;"Se muestra spinner de carga y envía a pantalla de consumo con el plan elegido en la migración
+"
+Migraciones Caribu;Flujo exitoso;Banner ya tienes un plan;Prepago;Debe mostrar banner en la pantalla de consumo;"Se muestra banner ""¡Listo! Ya tienes un plan XXXXX ¡Disfrutálo!"
+Migraciones ;(Migracion Normal) inicio de sesión DN  prepago ;Menú Hamburguesa ;Prepago;"Validar que el segmento prepago muestre en el menu hamburguesa la opción ""Pasate a un plan""";Al ser un dn apto para migración  mostrará la opcion pasate a un plan 
+Migraciones ;Inicio de sesión DN  prepago  ;Pasate a un plan ;Prepago;"Validar que al darle clic en la opcion pasate un plan nos mande al la pantalla de ""Pasate a un plan""";"Se deberá mostrar una pantalla azul ""Pasate a un plan"" al darle clic a la opcion pasate a un plan "
+Migraciones ;Pantalla Pasate a un plan ;Botón pasarme a un plan;Prepago;"Validar que se muestre el boton verde ""Pasarme a un plan""";"Se debera mostrar un boton verde con el texto ""Pasarme a un plan"""
+Migraciones ;Pantalla Pasate a un plan ;Botón pasarme a un plan;Prepago;Validar que al darle clic en el botón pasarme a un plan mande a Historial Crediticio;"Al darle clic al botón"" pasarme a un plan "" deberá mandar a Historial Crediticio"
+Migraciones ;Historial crediticio;Banner Tus datos;Prepago;"Validar que se muestre banner ""Tus datos están protegidos""";"Visualizar Banner ""Tus datos están protegidos""
+Se debe cerrar al dar click en ""Entendido"""
+Migraciones ;Historial crediticio;Campo RFC;Prepago;Validar campo de texto para RFC;"Campo RFC permite clocar datos correctamente
+Se muestra tooltip"
+Migraciones ;Historial crediticio;Campo RFC;Prepago;Tooltip pantalla “Si no conoces tu RFC, encuéntralo aquí” ;Se muestra Si no conoces tu RFC, encuéntralo *aquí (link a página de hacienda) 
+Migraciones ;Historial crediticio;Preguntas;Prepago; Validar que muestre y permita responder las preguntas de historial;"Se muestran las preguntas:
+*¿Tienes tarjeta de crédito vigente
+* ¿En los últimos dos años recibiste un crédito automotriz?
+*¿Recibiste un crédito hipotecario en los últimos 6 años?
+ Con sus respectivas casillas para responder SI/NO
+"
+Migraciones ;Historial crediticio;Check box Autorizo y Avsio de privacidad;Prepago; Validar que muestre check box para autorizar y el aviso de privacidad;"Se muestran los check box:
+*Autorizo a Telefónic
+a Movistar a consultar el buró de crédito  *Acepto el aviso de privacidad que contiene un vínculo para visualizar el aviso de privacidad (Link redirecciona al aviso de privacidad)"
+Migraciones ;Historial crediticio;Botón continuar y spinner;Prepago; Validarpermite continuar despues de sleccionar todo la información;"Se muestra el botón habilitado para continuar
+Spinner de carga indica que el buró esta siendo revisado"
+Migraciones ;Planes Movistar;Validación de parrilla de planes;Prepago;Validar se muestren los planes configurados para Pasate a un plan;Se mostraran los planes agregados en el mantenedor con su información y costos
+Migraciones ;Botón Acepta;Validación de parrilla de planes;Prepago;Validar que la funcionalidad del botón Lo quiero sea la correcta y nos permita avanzar;se deberá poder continuar al momento de dar clic en Lo quiero 
+Migraciones ;Beneficios de tener un plan ;Beneficios de tener un plan ;Prepago;Muestra información con los beneficios que tenemos ;"Se muestran los beneficios que se tienen
+Botón continuar"
+Migraciones ;Resumen de Compra ;Resumen de Compra ;Prepago;Validar que en el resumen de compra se encuentren los elementos correspondientes al plan seleccionado. ;"Se deberán mostrar los siguientes
+los siguientes elementos:
+*Plan - Costo
+*Domiciliación aplicada - Costo
+*Costo del plan con descuento
+*Mensualidad de tu nueva línea 
+*Fianza anual $200
+*Envío- Gratis
+*Paga hoy
+*Texto dinamico en gris. "
+Migraciones ;Resumen de Compra ;Tool Tip naranja;Prepago;Validar que al seleccionar el Tool Tip naranja nos muestre el siguiente mensaje  “Este monto corresponde a la fianza anual, no es un anticipo de tu renta”. ;Al seleccionar el Tool tip naranja debera mostrar el siguiente mensaje  “Este monto corresponde a la fianza anual, no es un anticipo de tu renta”. 
+Migraciones ;Texto dinámico banner gris;Resumen de Compra ;Prepago;Tu renta mensual se vera reflejada en tu próxima factura y deberás pagarla dentro de tu siguiente ciclo de pago ;Se muestra banner en color gris con información agregada desde el mantenedor
+Migraciones ;Activación/Desactivación de texto dinámico;Resumen de Compra ;Prepago;Validar que se muestre en la app texto dinámico en caso de que en el mantenedor este configurado y encendido, de lo contrario no se va mostrar;"En caso de estar encendido el texto dinámico en la app deberá decir :
+Tu renta mensual se verá reflejada en tu próxima factura y deberás pagarla dentro de tu siguiente ciclo de pago.  (en caso de estar apagado no deberá mostrarse) "
+Migraciones ;"Botón ""Continuar""";Resumen de Compra ;Prepago;Validar que se muestre el botón de continuar ;Se deberá habilitar el botón de continuar 
+Migraciones ;CheckOut;Datos del usuario;Prepago;Validar que se muestre el check out  para llenar los datos del usuario;Se podrán colocar los datos del usuario a excepción de los que ya vienen precargados esos no se podrán editar (nombre de usuario y numero de teléfono)
+Migraciones ;Mostrar la orden Desplegar o minimizar;Datos del usuario;Prepago;validar que se pueda mostrar la orden ;se podrá mostrar la orden siempre y cuando no se minimice o únicamente desplegando la pantalla 
+Migraciones ;Correo electrónico (Requerido);Datos del usuario;Prepago;Validar que despliegue el mensaje  de que el correo es requerido cuando  no se ingresa un correo;Se deberá de mostrar un  mensaje de texto indicando que se requiere un correo electrónico
+Migraciones ;Teléfono de contacto/Teléfono de Contacto adicional;Datos del usuario;Prepago;Validar que se pueda agregar  un teléfono de contacto  o teléfono  de contacto adicional;Se deberá de poder agregar un numero telefónico y numero adicional 
+Migraciones ;RFC Predeterminado;Datos del usuario;Prepago;Validar que el momento de ingresar  un RFC sea valido ;Se deberá de poder ingresar un RFC Valido
+Migraciones ;Clave de Elector (Obligatorio);Datos del usuario;Prepago;Validar que  se despliegue un texto indicando que  la clave electoral es obligatoria;Se deberá de  desplegar el texto  de clave electoral (obligatorio)
+Migraciones ;Checkbox (Vengo del Extranjero);Datos del usuario;Prepago;Validar que se puede desactivar y activar el check box (Vengo del Extranjero);Se deberá poder activar y desactivar el checkbox  (vengo del extranjero)
+Migraciones ;"Botón ""Continuar""";Datos del usuario;Prepago;Validar que al momento de dar click en el Botón Continuar  Prosiga con el flujo;se deberá de continuar con el flujo correctamente
+Migraciones ;Check out;Datos incorrectos;Prepago;Validar que al ingresar los datos incorrectos se bloquee la pantalla y no permita continuar con el flujo ;"Al ingresar los datos incorrectos en alfguno de los siguientes puntos:
+1.- Correo electrónico erroneo
+2.- Telefono de contacto erroneo
+3.- RFC con Homoclave  erroneo
+se bloquee el botón y no permita continuar con el flujo "
+Migraciones ;Checkout;Dirección de facturación;Prepago;Debe permitir colocar la información de dirección de facturación;"Pantalla para ingresar datos:
+-Calle
+-Número exterior
+-Número interior
+-Código Postal
+-Colonia
+-Delegación o Municipio
+-Botón siguiente (se activa hasta tener la información completa)"
+Migraciones ;Checkout;Spinner de carga;Prepago;Validar que al darle clic al boton siguiente aparezca un spinner de carga ;"Se deberá mostrar un spinner de carga con el siguiente texto "" Esto puede tomar algo de tiempo, por favor no actualices tu pantalla"""
+Migraciones ;Checkout;Contrato;Prepago;Se valida pantalla de contrato con redireccionamiento a los links que contiene y check box;"Pantalla con los siguientes elementos:
+-Título
+-Texto con links
+-Link Contrato
+-Link Claúsulas
+-Link Carta de derechos
+-Link Políticas
+-Chel box Manifiesto mi consentimiento
+-Check box Acepto términos y condiciones
+Botón siguiente"
+Migraciones ;Checkout;Contrato;Prepago;Validar información de contrato ;Se verifica la información del contrato
+Migraciones ;Checkout;"Botón ""Continuar""";Prepago;"Validar que se habilite el botón ""Continuar""";Se valida que botón Continuar funcione redireccionado a la siguiente pantalla del flujo
+Migraciones ;Pago;Redirect Multipagos;Prepago;Validar que redireccione correctamente de la pantalla de Multipagos;"Se deberán mostrar los siguientes elementos: 
+*Número de Folio
+*Referencia, Concepto del pago 
+*Importe a pagar
+*Opciones de pago ya sea tarjeta de crédito, débito o American Express 
+*el botón Regresar "
+Migraciones ;Medio de Pago (ingresar tu método de Pago);Pago;Prepago;Validar que se puedan ingresar los metodos de pago (Tarjeta Debito/Credito) o (American Express) para proceder con el pago ;"Se deberan ingresar los siguientes datos de la tarjeta para el pago: 
+-Nombre del titular 
+-Numero de Tarjeta 
+-Fecha de Vencimiento
+-Cvv
+Botón pagar 
+"
+Migraciones ;Pagar ;Botón Pagar /regresar ;Prepago;Validar que al presionar el botón de pagar nos mande información sobre el pago y nos permita continuar con el pago / en caso de seleccionar regresar nos mandara de nuevo a ingresar datos de pago;Al darle clic en pagar deberá mandar información del pago y permitirá continuar con el pago/ En caso de seleccionar el boton  rgresar mandara de nuevo a ingresar datos del pago
+Migraciones ;Pagar ;Botón continuar;Prepago;Validar que al darle clic al botón continuar redirigirá de nuevo a la APP Movistar y muestre la pantalla de cambio exitoso;Al darle clic en el botón de continuar debera redireccionar de nuevo a  APP Movistar y deberá mostrar la pantalla de cambio exitoso
+Migraciones ;Flujo exitoso;Pantalla de éxito;Prepago;Validar la pantalla de cambio exitoso en azul ;"Al concluir con el pago se deberá mostar una patalla de cambio exitoso en la APP con los siguientes elementos:
+¡Cambio Exitoso!
+Recibiras un correo de confiirmación 
+¡Listo! ahora tienes un plan (palomita verde)
+Orden (numero)
+Plan: 
+Domiciliación aplicada 
+Total del plan 
+Pagaste
+Renta Mensual
+Datos Personales 
+Nombre 
+Correo electronico
+Telefono"
+Migraciones ;Flujo exitoso;Tu cambio esta en proceso;Prepago;Validar pantalla cambio en proceso;"Se muestra pantalla con elementos:
+-Tu cambio está en proceso
+-Imagen
+"
+Migraciones ;Tu cambio esta en proceso;Bloqueo de pantalla;Prepago;Validar que al seleccionar las diferentes opciones RSOS, Recarga, Compra, Movistar libre, muestre la pantalla de cambio en proceso ;Se debera bloquear las opciones con la pantalla de cambio en proceso al seleccionar las opciones: RSOS, Recarga, Compra y Movistar libre.
+Migraciones ;Flujo exitoso;Procesando cambio;Prepago;Debe mostrar spinner de carga y enviar a consumo;"Se muestra spinner de carga y envía a pantalla de consumo con el plan elegido en la migración
+"
+Migraciones ;Flujo exitoso;Banner ya tienes un plan;Prepago;Debe mostrar banner en la pantalla de consumo;"Se muestra banner ""¡Listo! Ya tienes un plan XXXXX ¡Disfrutálo!"

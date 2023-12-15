@@ -1,6 +1,5 @@
 from dotenv import load_dotenv
 from langchain.document_loaders import UnstructuredWordDocumentLoader
-
 from langchain.chat_models import AzureChatOpenAI
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.chains.question_answering import load_qa_chain

@@ -1,0 +1,22 @@
+Caso de Prueba;Descripción;Área Funcional / Sub proceso;Funcionalidad / Característica;Datos / Acciones de Entrada;Resultado Esperado;Requerimientos de Ambiente de Pruebas
+Redencion Mantenedor -Exitoso;"Se ingresa al mantenedor con el usuario NBA en la sección Parrillas flujos nativos, Pestaña Fidelizacion y Crear bloque.
+Una vez creado el bloque, nos vamos al icono del regalo.
+Se agrega la categoria y posteriormente el nuevo beneficio y se da guardar.
+";Redencion ;Redencion Mantenedor;"* Usuario NBA
+*Crear bloque
+*Agregar categoria
+*Agregar nuevo beneficio.
+";Se crea bloque, categoria y beneficio con éxito.;Usuario NBA
+Redencion Mantenedor reportes -Exitoso;"Se ingresa al mantenedor con el usuario NBA en la sección reportes y redencion.
+Se captura fecha de inicio y fecha fin.
+Dar click en generar reporte. 
+";Redencion ;Redencion Mantenedor reportes;"* Usuario NBA
+* Generar Reporte.
+";Geracion de reporte exitoso ;Usuario NBA
+Redencion APP - Exitoso;"Se ingresa a la aplicacon con el DN 5537685200
+Se ingresa al menu Hamburguesa Beneficios de tu linea
+En la pantalla de Beneficios de tu Linea seleccionamos cualquier beneficio y
+nos manda a la pantalla de Success 
+";Redencion ;Redencion APP;"* DN apto para redencio.
+*Menu Hambuerguesa.
+* Beneficios de tu Linea.";Flujo de redecnion exitoso ;*DN apto para Redencion

@@ -1,0 +1,24 @@
+Caso de Prueba;Descripción;DN;Área Funcional / Sub proceso;Funcionalidad / Característica;Datos / Acciones de Entrada;Resultado Esperado;Resultado Obtenido;Observaciones
+Compra menor a $3,000;Se ingresa a la aplicación y muestra el banner para adquirir una terminal. Se selecciona una terminal con monto menor a $3,000 y la aplicacion no muestra las opciones de MSI;5537685234;Venta de Terminales;MSI;"* Banner de Venta Terminales
+* Selección de terminal
+* Aceptar terminos y condiciones
+* Validar opciones de pasarela de pago";La aplicación no muestra las opciones para MSI desde la pasarela de pago.;Se realizaron pruebas con éxito;Ok
+Compra superior a $3,000;Se ingresa a la aplicación y muestra el banner para adquirir una terminal. Se selecciona una terminal con monto superior a $3,000 y la aplicacion  muestra las opciones de MSI;5537685234;Venta de Terminales;MSI;"* Banner de Venta Terminales
+* Selección de terminal
+* Aceptar terminos y condiciones
+* Validar opciones de pasarela de pago";La aplicación muestra las opciones para MSI desde la pasarela de pago.;Se realizaron pruebas con éxito;Ok
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
