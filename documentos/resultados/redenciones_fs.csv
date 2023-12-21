@@ -1,0 +1,50 @@
+1. Prueba de ingreso al mantenedor con el usuario NBA en la sección Parrillas flujos nativos, Pestaña Fidelización y Crear bloque.
+   - Condición esperada: Creación exitosa del bloque.
+
+2. Prueba de ingreso al mantenedor con el usuario NBA en la sección reportes y redención.
+   - Condición esperada: Generación exitosa del reporte.
+
+3. Prueba de ingreso a la aplicación con un DN apto para redención y selección de beneficio.
+   - Condición esperada: Flujo de redención exitoso y pantalla de Success.
+
+4. Prueba de ingreso a la aplicación con el DN 5537685200 y selección de beneficio.
+   - Condición esperada: Flujo de redención exitoso y pantalla de Success.
+
+5. Prueba de ingreso al mantenedor en la sección Parrillas y creación de bono, regalo o descuento.
+   - Condición esperada: Creación exitosa del bono, regalo o descuento.
+
+6. Prueba de ingreso al mantenedor en la sección Parrillas y configuración de la campaña de fidelización.
+   - Condición esperada: Configuración exitosa de la campaña de fidelización.
+
+7. Prueba de generación de reporte por rango de fechas en el mantenedor.
+   - Condición esperada: Descarga exitosa del reporte con los clientes que hayan seleccionado algún bono, descuento y/o regalo.
+
+8. Prueba de generación de Deeplink para comunicación de los beneficios.
+   - Condición esperada: Generación exitosa del Deeplink.
+
+9. Prueba de visualización de los bonos, descuentos y/o regalos en la sección de fidelización de la APP.
+   - Condición esperada: Visualización correcta de los bonos, descuentos y/o regalos disponibles.
+
+10. Prueba de selección de bono, descuento y/o regalo por parte del cliente.
+    - Condición esperada: Desaparición de la opción de fidelización en la APP y registro de la selección realizada.
+
+11. Prueba de configuración de fecha de inicio y fecha fin para bonos, descuentos y/o regalos en el mantenedor.
+    - Condición esperada: Configuración correcta de las fechas de inicio y fin.
+
+12. Prueba de subida de imagen en el mantenedor para mostrar al cliente con bono, descuento y/o regalo.
+    - Condición esperada: Subida exitosa de la imagen.
+
+13. Prueba de validación de antigüedad del cliente en el Query cost para impactar los beneficios configurados.
+    - Condición esperada: Validación correcta de la antigüedad del cliente y aplicación de los beneficios correspondientes.
+
+14. Prueba de selección de bono, descuento y/o regalo por parte del cliente y registro en el reporte.
+    - Condición esperada: Registro correcto del DN del cliente, bono seleccionado y fecha en el reporte.
+
+15. Prueba de aplicación de descuento único para cada cliente.
+    - Condición esperada: Búsqueda de la mejor manera de aplicar los descuentos y aplicación exitosa de los mismos.
+
+16. Prueba de aplicación de regalos a través de un intermediario.
+    - Condición esperada: Envío exitoso del descuento o regalo al cliente a través del intermediario.
+
+17. Prueba de carga de nueva base para volver a visualizar las opciones de bonos, descuentos y/o regalos.
+    - Condición esperada: Visualización nuevamente de las opciones de bonos, descuentos y/o regalos después de cargar la nueva base.

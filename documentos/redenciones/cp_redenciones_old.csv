@@ -1,0 +1,8 @@
+Caso de Prueba;Resultado Esperado
+"Se ingresa al mantenedor con el usuario NBA en la secci�n Parrillas flujos nativos, Pesta�a Fidelizacion y Crear bloque.
+Una vez creado el bloque, nos vamos al icono del regalo. Se agrega la categoria y posteriormente el nuevo beneficio y se da guardar."
+";"Se crea bloque, categoria y beneficio con �xito."
+"Se ingresa al mantenedor con el usuario NBA en la secci�n reportes y redencion.
+Se captura fecha de inicio y fecha fin. Dar click en generar reporte.";"Geracion de reporte exitoso "
+"Se ingresa a la aplicacon con el DN 5537685200 Se ingresa al menu Hamburguesa Beneficios de tu linea
+En la pantalla de Beneficios de tu Linea seleccionamos cualquier beneficio y nos manda a la pantalla de Success";"Flujo de redecnion exitoso "
