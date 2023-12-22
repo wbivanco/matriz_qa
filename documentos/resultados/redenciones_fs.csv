@@ -1,50 +1,41 @@
-1. Prueba de ingreso al mantenedor con el usuario NBA en la secci髇 Parrillas flujos nativos, Pesta馻 Fidelizaci髇 y Crear bloque.
-   - Condici髇 esperada: Creaci髇 exitosa del bloque.
+1. Prueba de ingreso al mantenedor con el usuario NBA en la secci贸n Parrillas flujos nativos, Pesta帽a Fidelizaci贸n y Crear bloque.
+   - Condici贸n esperada: Creaci贸n exitosa del bloque.
 
-2. Prueba de ingreso al mantenedor con el usuario NBA en la secci髇 reportes y redenci髇.
-   - Condici髇 esperada: Generaci髇 exitosa del reporte.
+2. Prueba de ingreso al mantenedor con el usuario NBA en la secci贸n reportes y redenci贸n.
+   - Condici贸n esperada: Generaci贸n exitosa del reporte.
 
-3. Prueba de ingreso a la aplicaci髇 con un DN apto para redenci髇 y selecci髇 de beneficio.
-   - Condici髇 esperada: Flujo de redenci髇 exitoso y pantalla de Success.
+3. Prueba de ingreso a la aplicaci贸n con un DN apto para redenci贸n, ingreso al flujo Beneficios de tu l铆nea y selecci贸n de cualquier beneficio.
+   - Condici贸n esperada: Redenci贸n exitosa y pantalla de Success.
 
-4. Prueba de ingreso a la aplicaci髇 con el DN 5537685200 y selecci髇 de beneficio.
-   - Condici髇 esperada: Flujo de redenci髇 exitoso y pantalla de Success.
+4. Prueba de ingreso a la aplicaci贸n con el DN 5537685200, ingreso al men煤 Beneficios de tu l铆nea y selecci贸n de cualquier beneficio.
+   - Condici贸n esperada: Redenci贸n exitosa y pantalla de Success.
 
-5. Prueba de ingreso al mantenedor en la secci髇 Parrillas y creaci髇 de bono, regalo o descuento.
-   - Condici髇 esperada: Creaci髇 exitosa del bono, regalo o descuento.
+5. Prueba de ingreso al mantenedor en la secci贸n Parrillas y creaci贸n de una nueva pesta帽a de Fidelizaci贸n.
+   - Condici贸n esperada: Creaci贸n exitosa de la pesta帽a.
 
-6. Prueba de ingreso al mantenedor en la secci髇 Parrillas y configuraci髇 de la campa馻 de fidelizaci髇.
-   - Condici髇 esperada: Configuraci髇 exitosa de la campa馻 de fidelizaci髇.
+6. Prueba de ingreso al mantenedor en la secci贸n Parrillas y configuraci贸n de un bono, regalo o descuento.
+   - Condici贸n esperada: Configuraci贸n exitosa del bono, regalo o descuento.
 
-7. Prueba de generaci髇 de reporte por rango de fechas en el mantenedor.
-   - Condici髇 esperada: Descarga exitosa del reporte con los clientes que hayan seleccionado alg鷑 bono, descuento y/o regalo.
+7. Prueba de generaci贸n de un reporte descargable por rango de fechas con los clientes que hayan seleccionado alg煤n bono, descuento y/o regalo.
+   - Condici贸n esperada: Generaci贸n exitosa del reporte.
 
-8. Prueba de generaci髇 de Deeplink para comunicaci髇 de los beneficios.
-   - Condici髇 esperada: Generaci髇 exitosa del Deeplink.
+8. Prueba de visualizaci贸n de la imagen correspondiente al bono, regalo o descuento que se le puede aplicar al cliente.
+   - Condici贸n esperada: Visualizaci贸n exitosa de la imagen.
 
-9. Prueba de visualizaci髇 de los bonos, descuentos y/o regalos en la secci髇 de fidelizaci髇 de la APP.
-   - Condici髇 esperada: Visualizaci髇 correcta de los bonos, descuentos y/o regalos disponibles.
+9. Prueba de selecci贸n de un bono, regalo o descuento por parte del cliente.
+   - Condici贸n esperada: Selecci贸n exitosa del bono, regalo o descuento.
 
-10. Prueba de selecci髇 de bono, descuento y/o regalo por parte del cliente.
-    - Condici髇 esperada: Desaparici髇 de la opci髇 de fidelizaci髇 en la APP y registro de la selecci髇 realizada.
+10. Prueba de desaparici贸n de la opci贸n de bonos, regalos y/o descuentos una vez que el cliente ha seleccionado una opci贸n.
+    - Condici贸n esperada: Desaparici贸n exitosa de la opci贸n.
 
-11. Prueba de configuraci髇 de fecha de inicio y fecha fin para bonos, descuentos y/o regalos en el mantenedor.
-    - Condici髇 esperada: Configuraci髇 correcta de las fechas de inicio y fin.
+11. Prueba de Deeplink para comunicaci贸n de la promoci贸n.
+    - Condici贸n esperada: Generaci贸n exitosa del Deeplink.
 
-12. Prueba de subida de imagen en el mantenedor para mostrar al cliente con bono, descuento y/o regalo.
-    - Condici髇 esperada: Subida exitosa de la imagen.
+12. Prueba de configuraci贸n de la antig眉edad del cliente y la vigencia de visualizaci贸n del regalo en el mantenedor.
+    - Condici贸n esperada: Configuraci贸n exitosa de la antig眉edad y vigencia.
 
-13. Prueba de validaci髇 de antig黣dad del cliente en el Query cost para impactar los beneficios configurados.
-    - Condici髇 esperada: Validaci髇 correcta de la antig黣dad del cliente y aplicaci髇 de los beneficios correspondientes.
+13. Prueba de aplicaci贸n del bono, regalo o descuento al cliente.
+    - Condici贸n esperada: Aplicaci贸n exitosa del bono, regalo o descuento.
 
-14. Prueba de selecci髇 de bono, descuento y/o regalo por parte del cliente y registro en el reporte.
-    - Condici髇 esperada: Registro correcto del DN del cliente, bono seleccionado y fecha en el reporte.
-
-15. Prueba de aplicaci髇 de descuento 鷑ico para cada cliente.
-    - Condici髇 esperada: B鷖queda de la mejor manera de aplicar los descuentos y aplicaci髇 exitosa de los mismos.
-
-16. Prueba de aplicaci髇 de regalos a trav閟 de un intermediario.
-    - Condici髇 esperada: Env韔 exitoso del descuento o regalo al cliente a trav閟 del intermediario.
-
-17. Prueba de carga de nueva base para volver a visualizar las opciones de bonos, descuentos y/o regalos.
-    - Condici髇 esperada: Visualizaci髇 nuevamente de las opciones de bonos, descuentos y/o regalos despu閟 de cargar la nueva base.
+14. Prueba de ingreso al mantenedor por rango de fechas y visualizaci贸n de los clientes que hayan seleccionado alg煤n bono, descuento y/o regalo.
+    - Condici贸n esperada: Visualizaci贸n exitosa de los clientes.
