@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Subir y Descargar Archivos</title>
+    <link rel="stylesheet" type="text/css" href="static/css/app_styles.css">
+</head>
 <body>
+    <div class="container">
+        <h2>Subir Documento</h2>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" />
+            <input class="btn-send" type="submit" value="Enviar" />
+        </form>
 
-<h2>Subir Documento</h2>
-<form action="/upload" method="POST"  enctype="multipart/form-data">
-  
-   <input type="file" name="file"  />
-   <input type="submit" value="Enviar"/>
-</form>
-
-<h2>Descargar documento generado</h2>
-<a href="/download"><button class='btn btn-default' action>Descargar</button></a>
-
+        <h4>Ver documentos generados</h4>
+        <a class="btn" href="/download">Ir al listado</a>
+    </div>
 </body>
 </html>

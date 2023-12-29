@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subir y Descargar Archivos</title>
+    <link rel="stylesheet" type="text/css" href="static/css/app_styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Listado de archivos</h1>
+        <ul>
+            {% for file in files %}
+                <li class="right-align"><a href="{{ url_for('static', filename='output/' + file) }}">{{ file }}</a></li>
+            {% endfor %}
+        </ul>
+        <a class="btn-home" href="/">Inicio</a>
+    </div>
+</body>
+</html>

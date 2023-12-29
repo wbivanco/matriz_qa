@@ -27,8 +27,8 @@ def getText(filename):
 def getDoc(filename):
     """Returns the text of a docx file, with no extra lines"""
     if validate_file(filename):
-        text=getText(filename)
-        textmod=re.sub(r'\n+', '\n', text)
+        text = getText(filename)
+        textmod = re.sub(r'\n+', '\n', text)
         return textmod
 
 

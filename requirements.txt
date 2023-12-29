@@ -9,5 +9,6 @@ Flask
 langchain
 unstructured
 python-docx
-openai
+openai==0.28.0
 python-dotenv
+tiktoken

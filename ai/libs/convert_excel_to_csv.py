@@ -1,6 +1,6 @@
 import pandas as pd 
 
-""" Modo de uso:
+""" Modo de uso -> convert_xlsx_to_csv:
 from libs.convert_excel_to_csv import convert_xlsx_to_csv
 
 convert_xlsx_to_csv('ruta_al_archivo.xlsx', 'nombre_hoja', 'nombre_columa1', 'nombre_columa1', 'ruta_al_archivo.csv', numero_fila1, numero_fila2)
