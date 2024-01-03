@@ -5,8 +5,7 @@ import openai
 import pandas as pd
 from tqdm import tqdm
 import json
-#from libs.docx_parser import getDoc
-from ai.libs.docx_parser import getDoc
+
 
 # Cargo variables de configuración.
 load_dotenv()
@@ -145,7 +144,6 @@ def generate_response(documents):
 
     Returns:
         pandas.DataFrame: A DataFrame containing the generated results.
-
     """
 
     prompt_tokens = 0
@@ -177,9 +175,18 @@ def generate_response(documents):
 
 
 def generate_matrix(filename, mode='online'):
+    if mode == 'local':
+        from libs.docx_parser import getDoc
+        docx = '../static/input/' + filename
+        output_path = '../static/output/'
+    else:
+        from ai.libs.docx_parser import getDoc
+        docx = 'static/input/' + filename
+        output_path = 'static/output/'
+
     # Cargar el relative path del archivo que se quiere procesar.
     #path = dirname(dirname(dirname(abspath(__file__))))+'\\1.4 Datos\CP_Migraciones.docx'
-    docx = '../static/input/' + filename
+  
     docx_file = getDoc(docx)
     
     context, document = preprocess_docx(docx_file)
@@ -187,7 +194,8 @@ def generate_matrix(filename, mode='online'):
     result, cost = generate_response(document)
 
     # Guarda los resultados en un archivo CSV que se lean ñ y tildes.
-    result.to_csv('../static/output/resultados_migracion.csv', index=False, encoding='utf-8-sig')
+    output_file = output_path  + 'resultados_generados.csv'
+    result.to_csv(output_file, index=False, encoding='utf-8-sig')
 
     if mode == 'local':
         print(cost)
