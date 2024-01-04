@@ -3,17 +3,14 @@ tmp
 Procfile.dev
 venv
 
-
 # Archivos de configuración
 .env
 .venv
-
 
 # Visual Studio
 /.vscode/
 .vscode
 /tmp/
-
 
 # Git
 .git
@@ -27,7 +24,6 @@ venv
 nosetests.xml
 coverage.xml
 junit.xml
-
 
 # ?
 .cache

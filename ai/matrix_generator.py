@@ -194,8 +194,13 @@ def generate_matrix(filename, mode='online'):
     result, cost = generate_response(document)
 
     # Guarda los resultados en un archivo CSV que se lean ñ y tildes.
-    output_file = output_path  + 'resultados_generados.csv'
-    result.to_csv(output_file, index=False, encoding='utf-8-sig')
+    #output_file = output_path  + 'resultados_generados.csv'
+    #result.to_csv(output_file, index=False, encoding='utf-8-sig')
+
+    # Guarda los resultados en un archivo Excel.
+    output_file = output_path  + 'resultados_generados.xlsx'
+    result.to_excel(output_file, sheet_name='Resultados', index=False)
+
 
     if mode == 'local':
         print(cost)
@@ -207,4 +212,4 @@ def generate_matrix(filename, mode='online'):
 
 
 ################# EL CODIGO DE ABAJO SE USA PARA CORRER LOCAL #####################
-#generate_matrix('cp_migraciones.docx', 'local')
+generate_matrix('cp_migraciones.docx', 'local')
